@@ -4,145 +4,146 @@
 
 /* app in general */
 .App {
-    display: flex;
+  display: flex;
 }
 
 /* pages in general */
 .container {
-    display: flex;
+  display: flex;
 }
 
 .text-box {
-    display: block;
+  display: block;
 }
 
 /* navbar */
 .navigation {
-    display: flex;
+  display: flex;
 }
 
 .navigation .logo {
-    height: 30px;
+  height: 30px;
 }
 
 /* same styling for navbar links and contact links */
-.nav-links, .contacts {
-    font-size: 14px;
+.nav-links,
+.contacts {
+  font-size: 14px;
 }
 
 .nav-links a {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav-links .active {
-    color: #000;
+  color: #000;
 }
 
 .nav-links a:hover {
-    color: #000;
+  color: #000;
 }
 
 /* contacts */
 .contact-email {
-    color: blue;
+  color: blue;
 }
 
 .contact-github {
-    color: blue;
+  color: blue;
 }
 
 .contact-linkedin {
-    color: blue;
+  color: blue;
 }
 
 .contact-music {
-    color: blue;
+  color: blue;
 }
 
 /* footer */
 
 .footer {
-    font-size: 16px;
-    text-align: right;
+  font-size: 16px;
+  text-align: right;
 }
 
 .footer-links {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .footer-links a:hover {
-    color: #000;
+  color: #000;
 }
 
 .copyright {
-    margin: 10px;
+  margin: 10px;
 }
 
 /* home page stuff */
 .home-header {
-    display: flex;
+  display: flex;
 }
 
 .home-title {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .contact-bar {
-    display: flex;
+  display: flex;
 }
 
 .contact-bar .phone {
-    color: blue;
+  color: blue;
 }
 
 .contact-bar .email {
-    color: blue;
+  color: blue;
 }
 
 .contact-bar .city {
-    color: blue;
+  color: blue;
 }
 
 .intro-container {
-    display: flex;
+  display: flex;
 }
 
 .page-intro {
-    margin: 10px;
+  margin: 10px;
 }
 
 .text-box .text-home {
-    color: red;
+  color: red;
 }
 
 #box1 {
-    justify-content: left;
+  justify-content: left;
 }
 
 #box2 {
-    justify-content: right;
+  justify-content: right;
 }
 
 .face {
-    height: 30px;
+  height: 30px;
 }
 
 .otra-face {
-    height: 30px;
+  height: 30px;
 }
 
 .homebase-proper {
-    display: flex;
+  display: flex;
 }
 
 .homebase-proper .name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .text-box .homebase-box {
-    color: red;
+  color: red;
 }
 
 .content {
-    font-size: 12px;
+  font-size: 12px;
 }

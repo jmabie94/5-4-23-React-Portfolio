@@ -1,4 +1,4 @@
 import React from "react";
-import './Contact.css';
+import "./Contact.css";
 
 export default ContactForm;

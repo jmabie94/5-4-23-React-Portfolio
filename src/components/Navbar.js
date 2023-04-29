@@ -4,7 +4,7 @@ import logo from '../assets/media/ThoughtLogo_PNG1.png';
 const Navbar = () => {
     return (
         <nav className='navigation'>
-            <Link to="/"><img src={logo} alt='Logo'/></Link>
+            <Link to="/"><img src={logo} alt='Logo'className='logo'/></Link>
             <div className='nav-links'>
                 <NavLink to='/' className={({ isActive }) => (isActive ? 'active' : 'inactive')}>Home</NavLink>
                 <NavLink to='/projects'>Projects</NavLink>

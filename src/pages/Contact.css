@@ -1,1 +1,51 @@
 /* Contact-Specific Styling */
+.contact-box {
+  display: flex;
+}
+
+.contact {
+  display: flex;
+}
+
+input,
+textarea {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+input:hover,
+textarea:hover {
+  border: 2px solid #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: normal;
+}
+
+textarea {
+  height: 128px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-message {
+  display: block;
+  text-align: center;
+}

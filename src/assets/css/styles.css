@@ -12,6 +12,10 @@
     display: flex;
 }
 
+.text-box {
+    display: block;
+}
+
 /* navbar */
 .navigation {
     display: flex;
@@ -72,4 +76,73 @@
 
 .copyright {
     margin: 10px;
+}
+
+/* home page stuff */
+.home-header {
+    display: flex;
+}
+
+.home-title {
+    font-size: 32px;
+}
+
+.contact-bar {
+    display: flex;
+}
+
+.contact-bar .phone {
+    color: blue;
+}
+
+.contact-bar .email {
+    color: blue;
+}
+
+.contact-bar .city {
+    color: blue;
+}
+
+.intro-container {
+    display: flex;
+}
+
+.page-intro {
+    margin: 10px;
+}
+
+.text-box .text-home {
+    color: red;
+}
+
+#box1 {
+    justify-content: left;
+}
+
+#box2 {
+    justify-content: right;
+}
+
+.face {
+    height: 30px;
+}
+
+.otra-face {
+    height: 30px;
+}
+
+.homebase-proper {
+    display: flex;
+}
+
+.homebase-proper .name {
+    font-weight: bold;
+}
+
+.text-box .homebase-box {
+    color: red;
+}
+
+.content {
+    font-size: 12px;
 }

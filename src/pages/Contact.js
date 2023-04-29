@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import { response, response } from "express";
+// the next import was auto-generated trash
+// import { response, response } from "express";
 
 /* using web3forms to allow for a fully-functional contact form! */
 function ContactForm() {

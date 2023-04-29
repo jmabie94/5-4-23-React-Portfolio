@@ -1,0 +1,75 @@
+/* adding every class I create in the components so that I can come back and style them directly here, starting with basic styling for the sake of a non-broken css page */
+
+/* import fonts here as needed */
+
+/* app in general */
+.App {
+    display: flex;
+}
+
+/* pages in general */
+.container {
+    display: flex;
+}
+
+/* navbar */
+.navigation {
+    display: flex;
+}
+
+.navigation .logo {
+    height: 30px;
+}
+
+/* same styling for navbar links and contact links */
+.nav-links, .contacts {
+    font-size: 14px;
+}
+
+.nav-links a {
+    font-weight: bold;
+}
+
+.nav-links .active {
+    color: #000;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+/* contacts */
+.contact-email {
+    color: blue;
+}
+
+.contact-github {
+    color: blue;
+}
+
+.contact-linkedin {
+    color: blue;
+}
+
+.contact-music {
+    color: blue;
+}
+
+/* footer */
+
+.footer {
+    font-size: 16px;
+    text-align: right;
+}
+
+.footer-links {
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #000;
+}
+
+.copyright {
+    margin: 10px;
+}

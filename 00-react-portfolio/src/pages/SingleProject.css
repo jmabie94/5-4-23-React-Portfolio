@@ -1,0 +1,55 @@
+/* Single Project-specific styling */
+
+.project-list {
+  display: flex;
+}
+
+.project-card {
+  text-align: center;
+}
+
+img.project-screenshot {
+  width: 100%;
+}
+
+.project-title {
+  text-align: left;
+}
+
+.project-description {
+  font-size: 12px;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-url,
+.project-github {
+  display: flex;
+  align-items: center;
+}
+
+.project-url .icon {
+  height: 20px;
+}
+
+.project-github .icon {
+  height: 20px;
+}
+
+.project-card a {
+  font-size: 14px;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+.project-description p {
+  margin: 0 20px;
+}

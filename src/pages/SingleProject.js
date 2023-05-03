@@ -3,6 +3,9 @@ import viewIcon from "../assets/media/223930.png";
 import gitIcon from "../assets/media/25231.png";
 
 const SingleProject = ({ projects, title }) => {
+
+  console.log(projects);
+  
   return (
     <>
       <div className="home-header">
@@ -25,8 +28,8 @@ const SingleProject = ({ projects, title }) => {
         </div>
       </div>
       <div className="project-list">
-        {projects.projects.map((project) => {
-          <div className="project-card" key={project.id}>
+        {projects.map((project) => {
+          return <div className="project-card" key={project.id}>
             <img
               src={project.screenshot}
               alt={project.title}

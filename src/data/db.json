@@ -1,5 +1,4 @@
-{
-  "projects": [
+[
     {
       "id": 1,
       "title": "Personalized Meal Generator",
@@ -48,5 +47,4 @@
       "description": "Using Node.js and Inquirer Prompts to ask questions and allow User responses to generate a customized README for their projects.",
       "screenshot": "src/assets/media/README-generator-sample.png"
     }
-  ]
-}
+]

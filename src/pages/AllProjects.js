@@ -1,9 +1,10 @@
 import SingleProject from "./SingleProject";
 import { useEffect, useState } from "react";
+import projects from "../data/db.json";
 /* building AllProjects by importing multiple different individual SingleProjects */
 
 const AllProjects = () => {
-  const [projects, setProjects] = useState(null);
+  /* const [projects, setProjects] = useState(null);
 
   useEffect(() => {
     fetch("data/db.json")
@@ -12,7 +13,7 @@ const AllProjects = () => {
         console.log(data);
         setProjects(data);
       });
-  }, []);
+  }, []); */
 
   return (
     <div className="all-projects">

@@ -37,25 +37,24 @@ const Home = () => {
         <div className="homebase-proper">
           <div className="home-intro">
             <div className="text-box homebase-box">
-              
               <div id="box3">
                 <h1 className="name">Jack Mabie</h1>
               </div>
               <div id="box4" className="content">
                 <p>
-                  After years of working as a freelance audio engineer, I wanted to
-                  take my experiences working with music and music technology to a
-                  new level.
+                  After years of working as a freelance audio engineer, I wanted
+                  to take my experiences working with music and music technology
+                  to a new level.
                 </p>
                 <p>
                   At the end of 2022, I enrolled in a 6-month full-stack web
-                  development bootcamp in order to add another skillset which could
-                  benefit my love for music.
+                  development bootcamp in order to add another skillset which
+                  could benefit my love for music.
                 </p>
                 <p>
-                  From no prior experience coding, I can now say that this site has
-                  built entirely with the React JavaScript library thanks to the
-                  bootcamp!
+                  From no prior experience coding, I can now say that this site
+                  has built entirely with the React JavaScript library thanks to
+                  the bootcamp!
                 </p>
               </div>
             </div>

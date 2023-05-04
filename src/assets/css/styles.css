@@ -32,7 +32,7 @@
 }
 
 .navigation .logo {
-  height: 60px;
+  height: 100px;
   padding: 0;
   margin: 0 0 10px;
 }
@@ -101,8 +101,17 @@
 }
 
 /* home page stuff */
+.home-block {
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0.2px;
+  padding: 9.6px 19.2px;
+}
+
 .home-header {
   display: block;
+  width: 100%;
 }
 
 .home-title {
@@ -132,6 +141,7 @@
 }
 
 .intro-container {
+  float: left;
   display: flex;
   justify-content: left;
   width: 48%;
@@ -140,7 +150,6 @@
 
 .page-intro {
   margin: 10px;
-  justify-content: left;
   padding: 20px 4vw;
   width: 80%;
 }
@@ -172,26 +181,56 @@
 }
 
 .face img {
-  height: 60px;
+  height: 100px;
   float: left;
 }
 
+.otra-face {
+  vertical-align: middle;
+}
+
 .otra-face img {
-  height: 60px;
+  height: 100px;
+  float: right;
 }
 
 .homebase-proper {
+  float: right;
+  display: flex;
+  justify-content: right;
+  width: 48%;
+  margin-left: 2%;
+}
+
+.home-intro {
+  margin: 10px;
+  padding: 20px 4vw;
+  width: 80%;
+}
+
+.homebase-box {
+  color: #000;
+}
+
+#box3 {
   display: flex;
 }
 
-.homebase-proper .name {
+.homebase-proper h1 {
+  float: right;
+  justify-content: right;
+  font-size: 20px;
   font-weight: bold;
+  letter-spacing: -0.02em;
 }
 
-.text-box .homebase-box {
-  color: red;
+#box4 {
+  justify-content: left;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.04em;
 }
 
 .content {
-  font-size: 12px;
+  display: block;
 }

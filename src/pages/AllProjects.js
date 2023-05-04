@@ -1,5 +1,5 @@
 import SingleProject from "./SingleProject";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import projects from "../data/db.json";
 /* building AllProjects by importing multiple different individual SingleProjects */
 

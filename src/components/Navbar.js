@@ -15,9 +15,9 @@ const Navbar = () => {
           Home
         </NavLink>
         <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/contact"></NavLink>
+        <NavLink to="/contact">Contact</NavLink>
         <a
-          href="https://docs.google.com/document/d/1wpNKqT4FDvjwg1SNi24I_2vM7xKjPgj4zt4a4aiZNM0/edit?usp=sharing"
+          href="./files/2023 resume v1.pdf"
           className="resume"
           target="_blank"
           rel="noopener noreferrer"

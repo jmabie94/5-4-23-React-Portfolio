@@ -5,11 +5,17 @@
 /* app in general */
 .App {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 /* pages in general */
 .container {
   display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
 }
 
 .text-box {
@@ -19,20 +25,30 @@
 /* navbar */
 .navigation {
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.2em;
 }
 
 .navigation .logo {
-  height: 30px;
+  height: 60px;
+  padding: 0;
+  margin: 0 0 10px;
 }
 
 /* same styling for navbar links and contact links */
 .nav-links,
 .contacts {
   font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
 }
 
 .nav-links a {
   font-weight: bold;
+  margin: 0 12px;
+  padding: 0 0 4px 0;
 }
 
 .nav-links .active {
@@ -64,11 +80,15 @@
 
 .footer {
   font-size: 16px;
-  text-align: right;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px 24px 12px;
 }
 
-.footer-links {
+.footer-links a {
   font-weight: bold;
+  margin: 0 10px;
+  padding: 0 0 2px 0;
 }
 
 .footer-links a:hover {
@@ -76,60 +96,88 @@
 }
 
 .copyright {
+  font-size: 12px;
   margin: 10px;
 }
 
 /* home page stuff */
 .home-header {
-  display: flex;
+  display: block;
 }
 
 .home-title {
+  display: flex;
   font-size: 32px;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .contact-bar {
   display: flex;
+  column-gap: 30px;
+  justify-content: center;
+  margin-top: 8px;
 }
 
 .contact-bar .phone {
-  color: blue;
+  color: #000;
 }
 
 .contact-bar .email {
-  color: blue;
+  color: #000;
 }
 
 .contact-bar .city {
-  color: blue;
+  color: #000;
 }
 
 .intro-container {
   display: flex;
+  justify-content: left;
+  width: 48%;
+  margin-right: 2%;
 }
 
 .page-intro {
   margin: 10px;
+  justify-content: left;
+  padding: 20px 4vw;
+  width: 80%;
 }
 
-.text-box .text-home {
-  color: red;
+.text-box {
+  float: right;
+}
+
+.text-home {
+  color: #000;
 }
 
 #box1 {
   justify-content: left;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
 }
 
 #box2 {
   justify-content: right;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: -0.04em;
 }
 
 .face {
-  height: 30px;
+  vertical-align: middle;
 }
 
-.otra-face {
-  height: 30px;
+.face img {
+  height: 60px;
+  float: left;
+}
+
+.otra-face img {
+  height: 60px;
 }
 
 .homebase-proper {

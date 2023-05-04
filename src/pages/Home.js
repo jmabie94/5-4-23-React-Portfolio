@@ -10,7 +10,7 @@ const Home = () => {
         <span className="contact-bar">
           <span className="phone">+1 (626) 864-0110</span>
           <span className="email">johnmabie94@gmail.com</span>
-          <span className="city">Tulsa, OK</span>
+          <span className="city">Tulsa, Oklahoma</span>
         </span>
       </div>
       <div className="intro-container">
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
           </div>
           <div className="face">
-            <img src={face} alt="Jack Mabie Portrait by Nicklaus Gray" />
+            <img src={face2} alt="Jack Mabie Portrait by Dalton Mannerud" />
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@ const Home = () => {
         </div>
         <div className="text-box homebase-box">
           <div className="otra-face">
-            <img src={face2} alt="Jack Mabie Portrait by Dalton Mannerud" />
+            <img src={face} alt="Jack Mabie Portrait by Nicklaus Gray" />
           </div>
           <div className="content">
             <p>

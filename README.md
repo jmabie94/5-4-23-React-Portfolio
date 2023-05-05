@@ -11,6 +11,7 @@
 - [Media](#media)
 - [Credits](#credits)
 - [Technology Used](#technology-used)
+- [Notes](#notes)
 - [License](#license)
 ​
 ### User Story
@@ -67,6 +68,9 @@ Finally, the application should open automatically in your browser!
     - GH-Pages
     - Service Workers
     - Tutoring
+
+## Notes
+I have been having an exceedingly hard time figuring out the styling and getting things to look clean. Going to continue working on this in the coming weeks by way of tutoring and AskBCS, but the overall functionality should all be there!
     
 ## License
 ​

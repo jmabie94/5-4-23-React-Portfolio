@@ -1,12 +1,12 @@
 /* adding every class I create in the components so that I can come back and style them directly here, starting with basic styling for the sake of a non-broken css page */
 
-/* coolors.co color scheme */
+/* new color scheme */
 /* 
-COOL GRAY - 817E9F 
-VERDIGRIS - 28AFB0
-GUNMETAL - 13262F
-MELON - ECB8A5
-SANDY BROWN - EE964B
+OXFORD BLUE - #0A2342 (NAVY)
+INDIAN RED - #DB5461 (LIGHT RED)
+SHAMROCK GREEN - #28965A (GREEN)
+BABY POWDER - #FFFDF7 (WHITE)
+CORNFLOWER BLUE - #6F9CEB (LIGHT BLUE)
 */
 
 /* import fonts here as needed */
@@ -17,7 +17,7 @@ SANDY BROWN - EE964B
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  background-color: #ee964b;
+  background-color: #6F9CEB;
 }
 
 /* pages in general */
@@ -35,6 +35,7 @@ SANDY BROWN - EE964B
   flex-direction: column;
   justify-content: space-between;
   padding: 1.2em;
+  background-image: linear-gradient(#0A2342, #6F9CEB)
 }
 
 .navigation .logo {
@@ -57,22 +58,22 @@ SANDY BROWN - EE964B
 }
 
 .nav-links a:link {
-  color: #28AFB0;
+  color: #FFFDF7;
   text-decoration: none;
 }
 
 .nav-links a:visited {
-  color: #817E9F;
+  color: #0A2342;
   text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: #13262F;
+  color: #DB5461;
   text-decoration: underline;
 }
 
 .nav-links a:active {
-  color: #ECB8A5;
+  color: #6F9CEB;
   text-decoration: line-through;
 }
 
@@ -81,26 +82,26 @@ SANDY BROWN - EE964B
   font-weight: bold;
   margin: 0 12px;
   padding: 0 0 4px 0;
-  color: #28AFB0;
+  color: #FFFDF7;
 }
 
 .contacts a:link {
-  color: #28AFB0;
+  color: #FFFDF7;
   text-decoration: none;
 }
 
 .contacts a:visited {
-  color: #817E9F;
+  color: #0A2342;
   text-decoration: none;
 }
 
 .contacts a:hover {
-  color: #13262F;
+  color: #DB5461;
   text-decoration: underline;
 }
 
 .contacts a:active {
-  color: #ECB8A5;
+  color: #6F9CEB;
   text-decoration: line-through;
 }
 
@@ -110,6 +111,7 @@ SANDY BROWN - EE964B
   text-align: center;
   text-transform: uppercase;
   padding: 32px 24px 12px;
+  background-image: linear-gradient(#6F9CEB, #0A2342)
 }
 
 .footer-links a {
@@ -121,15 +123,14 @@ SANDY BROWN - EE964B
 .copyright {
   font-size: 12px;
   margin: 10px;
+  filter: drop-shadow(0px 1px 2px #6F9CEB);
 }
 
 /* home page stuff */
+/* starting from scratch :( */
+
 .home-block {
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-  letter-spacing: 0.2px;
-  padding: 9.6px 19.2px;
+  display: flex;
 }
 
 .home-header {
@@ -137,169 +138,102 @@ SANDY BROWN - EE964B
   width: 100%;
 }
 
-.home-title {
+.page-title {
   display: flex;
   font-size: 32px;
   justify-content: center;
   font-weight: bold;
-  color: #28AFB0;
 }
 
 .contact-bar {
   display: flex;
   column-gap: 30px;
   justify-content: center;
-  margin-top: 8px;
+  margin-top: -8px;
+}
+
+.contact-bar span {
+  padding-bottom: 10px;
 }
 
 .contact-bar .phone {
-  color: #13262F;
+  display: flex;
 }
 
 .contact-bar .email {
-  color: #13262F;
+  display: flex;
 }
 
 .contact-bar .city {
-  color: #13262F;
-}
-
-.intro-container {
-  float: left;
   display: flex;
-  justify-content: left;
-  width: 48%;
-  margin-right: 2%;
-}
-
-.page-intro {
-  margin: 10px;
-  padding: 20px 20px;
-  width: 80%;
-}
-
-.text-box {
-  display: inline-grid;
-}
-
-.text-box p a {
-  font-weight: normal;
-  font-style: italic;
-  color: #28AFB0;
-}
-
-.text-box p a:link {
-  color: #28AFB0;
-  text-decoration: none;
-}
-
-.text-box p a:visited {
-  color: #817E9F;
-  text-decoration: none;
-}
-
-.text-box p a:hover {
-  color: #13262F;
-  text-decoration: underline;
-}
-
-.text-box p a:active {
-  color: #ECB8A5;
-  text-decoration: line-through;
-}
-
-.text-home {
-  color: #13262F;
-  float: right;
-}
-
-#box1 {
-  justify-content: left;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: -0.02em;
-}
-
-#box2 {
-  justify-content: right;
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: -0.04em;
-}
-
-#box2 p {
-  margin-top: 16px;
 }
 
 .face {
   vertical-align: middle;
+  filter: drop-shadow(2px 4px 2px #0A2342);
 }
 
 .face img {
   height: 100px;
   float: left;
-  padding-right: 10px;
 }
 
 .otra-face {
   vertical-align: middle;
+  filter: drop-shadow(-2px 4px 2px #0A2342);
 }
 
 .otra-face img {
   height: 100px;
   float: right;
-  padding-left: 10px;
-}
-
-.homebase-proper {
-  float: right;
-  display: flex;
-  justify-content: right;
-  width: 48%;
-  margin-left: 2%;
 }
 
 .home-intro {
-  margin: 10px;
-  padding: 20px 20px;
-  width: 80%;
+  display: flex;
 }
 
-.homebase-box {
-  color: #13262F;
-  float: left;
+.text-box {
+  display: block;
+}
+
+.text-home {
+  color: black;
+}
+
+.text-info {
+  color: black;
+}
+
+#box1 {
+  font-size: 20px;
+  padding-bottom: 16px;
+  font-weight: bold;
+}
+
+#box2 {
+  font-size: 14px;
+}
+
+#box2 p {
+  padding-bottom: 6px;
 }
 
 #box3 {
-  display: flex;
-  justify-content: left;
   font-size: 20px;
+  padding-bottom: 16px;
   font-weight: bold;
-  letter-spacing: -0.02em;
 }
 
 #box4 {
-  justify-content: left;
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: -0.04em;
+  font-size: 14px;
 }
 
 #box4 p {
-  margin-top: 16px;
-  float: left;
+  padding-bottom: 6px;
+  line-height: 16px;
 }
 
-.content {
+.home-info {
   display: flex;
-  flex-direction: column;
 }
 
-/* all projects stuff */
-.all-projects {
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-  letter-spacing: 0.2px;
-  padding: 9.6px 19.2px;
-}

@@ -2,15 +2,6 @@ const Contacts = () => {
   return (
     <div className="contacts">
       <a
-        href="mailto:johnmabie94@gmail.com"
-        className="contact-email"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="link to email"
-      >
-        Email
-      </a>
-      <a
         href="https://github.com/jmabie94"
         className="contact-github"
         target="_blank"

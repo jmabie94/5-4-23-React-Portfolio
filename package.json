@@ -2,6 +2,7 @@
   "name": "00-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jmabie94.github.io/5-4-23-React-Portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",

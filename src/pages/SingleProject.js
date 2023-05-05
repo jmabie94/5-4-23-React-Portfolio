@@ -15,10 +15,10 @@ const SingleProject = ({ projects, title }) => {
           <span className="city">Tulsa, OK</span>
         </span>
       </div>
-      <div className="intro-container">
+      <div className="project-container">
         <div className="page-intro">
           <div className="text-box text-project">
-            <div id="box2">
+            <div id="box5">
               <h2>
                 Some projects I've worked on either solo or as part of a group:
               </h2>

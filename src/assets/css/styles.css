@@ -1,5 +1,14 @@
 /* adding every class I create in the components so that I can come back and style them directly here, starting with basic styling for the sake of a non-broken css page */
 
+/* coolors.co color scheme */
+/* 
+COOL GRAY - 817E9F 
+VERDIGRIS - 28AFB0
+GUNMETAL - 13262F
+MELON - ECB8A5
+SANDY BROWN - EE964B
+*/
+
 /* import fonts here as needed */
 
 /* app in general */
@@ -8,6 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
+  background-color: #ee964b;
 }
 
 /* pages in general */
@@ -16,10 +26,6 @@
   flex-direction: column;
   flex-grow: 1;
   margin: 0;
-}
-
-.text-box {
-  display: block;
 }
 
 /* navbar */
@@ -34,7 +40,6 @@
 .navigation .logo {
   height: 100px;
   padding: 0;
-  margin: 0 0 10px;
 }
 
 /* same styling for navbar links and contact links */
@@ -51,33 +56,55 @@
   padding: 0 0 4px 0;
 }
 
-.nav-links .active {
-  color: #000;
+.nav-links a:link {
+  color: #28AFB0;
+  text-decoration: none;
+}
+
+.nav-links a:visited {
+  color: #817E9F;
+  text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: #000;
+  color: #13262F;
+  text-decoration: underline;
+}
+
+.nav-links a:active {
+  color: #ECB8A5;
+  text-decoration: line-through;
 }
 
 /* contacts */
-.contact-email {
-  color: blue;
+.contacts a {
+  font-weight: bold;
+  margin: 0 12px;
+  padding: 0 0 4px 0;
+  color: #28AFB0;
 }
 
-.contact-github {
-  color: blue;
+.contacts a:link {
+  color: #28AFB0;
+  text-decoration: none;
 }
 
-.contact-linkedin {
-  color: blue;
+.contacts a:visited {
+  color: #817E9F;
+  text-decoration: none;
 }
 
-.contact-music {
-  color: blue;
+.contacts a:hover {
+  color: #13262F;
+  text-decoration: underline;
+}
+
+.contacts a:active {
+  color: #ECB8A5;
+  text-decoration: line-through;
 }
 
 /* footer */
-
 .footer {
   font-size: 16px;
   text-align: center;
@@ -89,10 +116,6 @@
   font-weight: bold;
   margin: 0 10px;
   padding: 0 0 2px 0;
-}
-
-.footer-links a:hover {
-  color: #000;
 }
 
 .copyright {
@@ -119,6 +142,7 @@
   font-size: 32px;
   justify-content: center;
   font-weight: bold;
+  color: #28AFB0;
 }
 
 .contact-bar {
@@ -129,15 +153,15 @@
 }
 
 .contact-bar .phone {
-  color: #000;
+  color: #13262F;
 }
 
 .contact-bar .email {
-  color: #000;
+  color: #13262F;
 }
 
 .contact-bar .city {
-  color: #000;
+  color: #13262F;
 }
 
 .intro-container {
@@ -150,16 +174,43 @@
 
 .page-intro {
   margin: 10px;
-  padding: 20px 4vw;
+  padding: 20px 20px;
   width: 80%;
 }
 
 .text-box {
-  float: right;
+  display: inline-grid;
+}
+
+.text-box p a {
+  font-weight: normal;
+  font-style: italic;
+  color: #28AFB0;
+}
+
+.text-box p a:link {
+  color: #28AFB0;
+  text-decoration: none;
+}
+
+.text-box p a:visited {
+  color: #817E9F;
+  text-decoration: none;
+}
+
+.text-box p a:hover {
+  color: #13262F;
+  text-decoration: underline;
+}
+
+.text-box p a:active {
+  color: #ECB8A5;
+  text-decoration: line-through;
 }
 
 .text-home {
-  color: #000;
+  color: #13262F;
+  float: right;
 }
 
 #box1 {
@@ -176,6 +227,10 @@
   letter-spacing: -0.04em;
 }
 
+#box2 p {
+  margin-top: 16px;
+}
+
 .face {
   vertical-align: middle;
 }
@@ -183,6 +238,7 @@
 .face img {
   height: 100px;
   float: left;
+  padding-right: 10px;
 }
 
 .otra-face {
@@ -192,6 +248,7 @@
 .otra-face img {
   height: 100px;
   float: right;
+  padding-left: 10px;
 }
 
 .homebase-proper {
@@ -204,21 +261,18 @@
 
 .home-intro {
   margin: 10px;
-  padding: 20px 4vw;
+  padding: 20px 20px;
   width: 80%;
 }
 
 .homebase-box {
-  color: #000;
+  color: #13262F;
+  float: left;
 }
 
 #box3 {
   display: flex;
-}
-
-.homebase-proper h1 {
-  float: right;
-  justify-content: right;
+  justify-content: left;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: -0.02em;
@@ -226,11 +280,26 @@
 
 #box4 {
   justify-content: left;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   letter-spacing: -0.04em;
 }
 
+#box4 p {
+  margin-top: 16px;
+  float: left;
+}
+
 .content {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+/* all projects stuff */
+.all-projects {
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0.2px;
+  padding: 9.6px 19.2px;
 }

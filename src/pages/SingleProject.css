@@ -1,5 +1,25 @@
 /* Single Project-specific styling */
 
+.page-title {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  font-weight: bold;
+  color: #28AFB0;
+}
+
+/* might be the wrong thing to use here */
+.project-container {
+  width: 100%;
+  text-align: center;
+}
+
+#box5 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
 .project-list {
   display: flex;
 }

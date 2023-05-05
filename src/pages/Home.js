@@ -37,9 +37,7 @@ const Home = () => {
         <div className="homebase-proper">
           <div className="home-intro">
             <div className="text-box homebase-box">
-              <div id="box3">
-                <h1 className="name">Jack Mabie</h1>
-              </div>
+              <div id="box3">Jack Mabie</div>
               <div id="box4" className="content">
                 <p>
                   After years of working as a freelance audio engineer, I wanted

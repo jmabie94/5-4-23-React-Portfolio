@@ -1,2 +1,60 @@
 /* Single Project-specific styling */
 /* restarting styling :( */
+
+.all-projects {
+    display: flex;
+}
+
+.projects-container {
+    display: flex;
+}
+
+.project-header {
+    display: block;
+    width: 100%;
+}
+
+.page-title {
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    font-weight: bold;
+}
+  
+.contact-bar {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: -8px;
+}
+  
+.contact-bar span {
+    padding-bottom: 10px;
+}
+  
+.contact-bar .phone {
+    display: flex;
+}
+  
+.contact-bar .email {
+    display: flex;
+}
+  
+.contact-bar .city {
+    display: flex;
+}
+
+.project-intro {
+    display: flex;
+    justify-content: center;
+}
+
+.text-project {
+    color: black;
+}
+
+#box5 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

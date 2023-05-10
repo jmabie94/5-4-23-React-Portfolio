@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.project-grid {
+    display: flex;
+}
+
 .page-title {
     display: flex;
     font-size: 32px;

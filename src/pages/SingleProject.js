@@ -4,10 +4,12 @@ import gitIcon from "../assets/media/25231.png";
 import { Avatar, CardActions, CardContent, CardMedia, Grid, Typography } from "@mui/material";
 import Card from '@mui/material/Card';
 import Button from '@mui/material/Button';
+// import { projectData } from "../data/db";
+// import testImage from '../assets/media/results-page.png';
 
 // refactoring to utilize MUI styling instead of doing everything from scratch
-const SingleProject = ({ projects, title }) => {
-    console.log(projects);
+const SingleProject = ({ projectData, title }) => {
+    console.log(projectData);
 
     return (
         <>
@@ -22,26 +24,18 @@ const SingleProject = ({ projects, title }) => {
                                 <span className="email">johnmabie94@gmail.com</span>
                                 <span className="city">Tulsa, Oklahoma</span>
                             </div>
-                    </Grid>{/* 
-                    <Grid xs={12} direction={"row"}>
-                            <div className="project-intro">
-                                <div className="text-box text-project">
-                                    <div id="box5">
-                                        <p>Here are some projects I have worked on, either solo or as part of a group:</p>
-                                    </div>
-                                </div>
-                            </div>
-                    </Grid> */}
+                    </Grid>
                 </div>
                 <div className="project-grid">
-                    {projects.map((project) => {
+                    {projectData.map((project) => {
                         return (
-                            <Grid xs={6}>
+                            <Grid item xs={6}>
                                 <Card sx={{ maxWidth: 1000 }}>
                                     <CardMedia
                                         sx={{ height: 200 }}
                                         image={ project.screenshot }
-                                        title={ project.title }/>
+                                        title={ project.title }
+                                        component="img"/>
                                     <CardContent>
                                         <Typography variant="h5" component="div">
                                             { project.title }

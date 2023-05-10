@@ -1,6 +1,6 @@
 import SingleProject from "./SingleProject";
 // import { useEffect, useState } from "react";
-import projects from "../data/db.json";
+import { projectData } from "../data/db.js";
 /* building AllProjects by importing multiple different individual SingleProjects */
 
 const AllProjects = () => {
@@ -8,7 +8,7 @@ const AllProjects = () => {
   return (
       <div className='all-projects'>
           <div className='projects-container'>
-              {projects && <SingleProject projects={projects} title="Projects" />}
+              {projectData && <SingleProject projectData={projectData} title="Projects" />}
           </div>
       </div>
   );

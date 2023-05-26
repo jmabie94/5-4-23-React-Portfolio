@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/5-4-23-React-Portfolio/static/css/main.e1115dee.css",
-    "main.js": "/5-4-23-React-Portfolio/static/js/main.9e00ca10.js",
+    "main.css": "/5-4-23-React-Portfolio/static/css/main.0bda316a.css",
+    "main.js": "/5-4-23-React-Portfolio/static/js/main.ccd85309.js",
+    "static/media/results-page.png": "/5-4-23-React-Portfolio/static/media/results-page.605a07f3b63353d22201.png",
     "static/media/whosethot.png": "/5-4-23-React-Portfolio/static/media/whosethot.b3f62a4c53f8e237abed.png",
+    "static/media/screencapture-whispering-beach-93510-herokuapp-games-2023-05-25-22_48_25.png": "/5-4-23-React-Portfolio/static/media/screencapture-whispering-beach-93510-herokuapp-games-2023-05-25-22_48_25.d3c9db3bd583f6b69d6b.png",
+    "static/media/nosql-social-network.png": "/5-4-23-React-Portfolio/static/media/nosql-social-network.972b7abbf24419eb5b23.png",
+    "static/media/disc-exchange-snip-for-portfolio.PNG": "/5-4-23-React-Portfolio/static/media/disc-exchange-snip-for-portfolio.37799b265b360d530989.PNG",
     "static/media/ThoughtLogo_PNG1.png": "/5-4-23-React-Portfolio/static/media/ThoughtLogo_PNG1.d05a6a6ca05b5eaaf13c.png",
+    "static/media/employeetracker1.PNG": "/5-4-23-React-Portfolio/static/media/employeetracker1.d4c596c5799eeaab9fb2.PNG",
+    "static/media/jate-with-test-text.png": "/5-4-23-React-Portfolio/static/media/jate-with-test-text.1828b9879d8f997aa61f.png",
     "static/media/106616130_276750643430394__n.jpg": "/5-4-23-React-Portfolio/static/media/106616130_276750643430394_6992149895293952372_n.4a5f731b3ba9273631f1.jpg",
     "static/media/223930.png": "/5-4-23-React-Portfolio/static/media/223930.67e0505f444c5f91e693.png",
     "index.html": "/5-4-23-React-Portfolio/index.html",
-    "main.e1115dee.css.map": "/5-4-23-React-Portfolio/static/css/main.e1115dee.css.map",
-    "main.9e00ca10.js.map": "/5-4-23-React-Portfolio/static/js/main.9e00ca10.js.map"
+    "main.0bda316a.css.map": "/5-4-23-React-Portfolio/static/css/main.0bda316a.css.map",
+    "main.ccd85309.js.map": "/5-4-23-React-Portfolio/static/js/main.ccd85309.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1115dee.css",
-    "static/js/main.9e00ca10.js"
+    "static/css/main.0bda316a.css",
+    "static/js/main.ccd85309.js"
   ]
 }

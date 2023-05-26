@@ -17,6 +17,14 @@ export const projectData = [
   },
   {
     "id": 3,
+    "title": "React Gaming Website",
+    "url": "https://whispering-beach-93510.herokuapp.com/",
+    "github": "https://github.com/jmabie94/PWA-React-Game-App",
+    "description": "Using React, MERN, JWT, GraphQL & MongoDB to build a website which allows Users to log in and play classic board and chance games within their browser against a Computer player. In future development, will be adding multiplayer functionality and a live chat which will allow any users competing in the given game to message eachother and provide some loving trash talk.",
+    "screenshot": require("../assets/media/screencapture-whispering-beach-93510-herokuapp-games-2023-05-25-22_48_25.png")
+  },
+  {
+    "id": 4,
     "title": "NoSQL Social Network API",
     "url": "https://github.com/jmabie94/4-20-23-NoSQL-Social-Network-API",
     "github": "https://github.com/jmabie94/4-20-23-NoSQL-Social-Network-API",
@@ -24,7 +32,7 @@ export const projectData = [
     "screenshot": require("../assets/media/nosql-social-network.png")
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "PWA Text Editor App",
     "url": "https://fast-lake-90185.herokuapp.com/",
     "github": "https://github.com/jmabie94/4-27-23-PWA-Text-Editor",
@@ -32,19 +40,11 @@ export const projectData = [
     "screenshot": require("../assets/media/jate-with-test-text.png")
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "MySQL Employee Tracker",
     "url": "https://github.com/jmabie94/3-9-23-Employee-Tracker",
     "github": "https://github.com/jmabie94/3-9-23-Employee-Tracker",
     "description": "Using Node.js, Inquirer Prompts and MySQL to build a custom database by using the terminal to create departments, roles within departments and add employees to respective departments and roles.",
     "screenshot": require("../assets/media/employeetracker1.PNG")
-  },
-  {
-    "id": 6,
-    "title": "README Generator",
-    "url": "https://github.com/jmabie94/2-15-23-README-generator",
-    "github": "https://github.com/jmabie94/2-15-23-README-generator",
-    "description": "Using Node.js and Inquirer Prompts to ask questions and allow User responses to generate a customized README for their projects.",
-    "screenshot": require("../assets/media/README-generator-sample.png")
   }
 ]
